@@ -8,7 +8,7 @@ e o uso de hosting implica que use a função antes mesmo dela ser declarada no 
 
 exemplo:
 
-// ou seja a função soma sendo chamada antes da declaração da função
+// abaxio a um exemplo: a função soma está sendo chamada antes da declaração da função
 
 soma(2,2)
 
