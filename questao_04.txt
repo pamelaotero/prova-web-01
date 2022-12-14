@@ -1,0 +1,18 @@
+hoisting. Ainda neste arquivo, descreva como o hoisting afeta a
+interpretação de um código JavaScript
+
+🔴 hosting permite que execute funções antes da sua declaração e com isso todas as declarações 
+de variáveis e de funções são movidas para o topo do código
+
+e o uso de hosting implica que use a função antes mesmo dela ser declarada no código
+
+exemplo:
+
+// ou seja a função soma sendo chamada antes da declaração da função
+
+soma(2,2)
+
+function(a, b) {
+    return a+ b
+}
+
