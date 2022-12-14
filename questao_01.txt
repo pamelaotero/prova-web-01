@@ -1,0 +1,65 @@
+-- Descrição dos 4 erros sintáticos ou lógicos
+-- as linhas onde ocorreram
+-- o que deve ser feito para resolver
+
+
+🔴 RESPOSTA QUESTAO 1  
+
+✨ ERRO 1 
+
+❌ Na linha 04 é utilizado o comentario em html:
+/* Isto é um comentário, não deve aparecer na página */
+
+✅ O uso correto de comentário em HTML seria da seguinte forma:
+<!-- COMENTARIO AQUI -->
+
+✨ ERRO 2
+
+❌ No seguinte trecho de código da linha 09 a linha 13 houve o uso incorreto da propriedade background-color, veja abaixo:
+
+<style>
+ background-color {
+ #para: blue;
+ }
+</style>
+
+✅ A maneira CORRETA seria:
+
+<style>
+ background-color {
+ #para: blue;
+ }
+</style>
+
+✨ ERRO 3
+
+❌ A linha 15 até a linha 23 são códigos HTML e não estão envolta da tag <body>
+
+✅ Solução: incluir a tag <body> envolvendo a linha 15 e linha 23, como abaixo:
+
+<body>
+    <h1>Instituto de Computação</h1>
+    <p id="para">
+    O Instituto de Computação (IComp), antigo
+    <strong>Departamento de Ciência da Computação (DCC), é um
+    instituto acadêmico que agrega os professores da área de
+    computação.
+    </p>
+</body>
+
+✨ ERRO 4
+
+❌ A linha 24 até a linha 33 está envolvendo um código javascript
+✅ Portanto, a Solução é envolver esse código em uma tag <script> como abaixo:
+
+<script>
+    (function() {
+        var instituto = {
+            nome: "Instituto de Computação",
+            getNome: function () {
+            return that.nome;
+        }
+    }
+    })();
+</script>
+
